@@ -9,7 +9,6 @@ import SwiftUI
 
 struct DetailArrayElement: View {
     
-    @State private var showModal = false
     @Environment(\.viewController) private var viewControllerHolder: ViewControllerHolder
     
     private var viewController: UIViewController? {
